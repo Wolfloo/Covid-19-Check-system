@@ -1,0 +1,58 @@
+{% extends 'front_base.html' %}
+
+{% block title %}
+    使用
+{% endblock %}
+
+{% block header %}
+    <script src="{% static 'js/check.js' %}"></script>
+    <style>
+        .input-image {
+            width: 500px;
+            height: 400px;
+            float: left;
+            margin-top: 58px;
+        }
+
+        .input-image img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .input-image span {
+            margin-left: 100px
+        }
+    </style>
+{% endblock %}
+
+{% block main-container %}
+    <div class="box">
+        <div class="box-header page-header">
+            <h1>上传一张图片进行识别</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="" class="form-group">
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label for="thumbnail-form">上传图片</label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" id="img-url" name="img_url">
+                                <input type="file" id="upload-btn" value="上传图片" style="float: right;margin-top: 20px" class="btn">
+
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary pull-right" id="img-change">检测</button>
+                        <div class="input-image">
+                            <span>上传的图片</span>
+                            <img src="https://alifei02.cfp.cn/creative/vcg/800/new/VCG41N987469226.jpg" alt=""
+                                 class="input-image-file">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
