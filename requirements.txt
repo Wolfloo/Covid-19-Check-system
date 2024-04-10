@@ -1,0 +1,4 @@
+Django==5.0.3
+numpy==1.23.5
+tensorflow==2.12.0
+tensorflow_intel==2.12.0
