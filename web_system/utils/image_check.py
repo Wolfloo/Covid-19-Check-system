@@ -6,8 +6,10 @@ import numpy as np
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from tensorflow.keras.applications.resnet import preprocess_input
 from tensorflow.keras.models import load_model
+from utils.train_model.T import TransformerEncoderBlock
 
-model = tf.keras.models.load_model(model_path)
+
+model = tf.keras.models.load_model(model_path, custom_objects={'TransformerEncoderBlock': TransformerEncoderBlock})
 
 class_names = ["Covid", "Normal", "Viral Pneumonia"]
 
