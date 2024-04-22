@@ -20,12 +20,16 @@ python .\manage.py runserver
 ~~~
 
 ## Snapshot
+![image-20240410140557827](https://github.com/Wolfloo/Covid-19-Check-system/assets/78725495/7620bf58-5853-495e-8527-901b5eac9212)
+![image-20240410140746760](https://github.com/Wolfloo/Covid-19-Check-system/assets/78725495/f57df133-52a7-4ae7-9d8f-30c70c586653)
+![image-20240410140812792](https://github.com/Wolfloo/Covid-19-Check-system/assets/78725495/0f824555-3ace-48dd-a15b-64663a1e86c0)
 
-![image-20240410140557827](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20240410140557827.png)
 
-![image-20240410140746760](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20240410140746760.png)
 
-![image-20240410140812792](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20240410140812792.png)
+
+
+
+
 
 
 
